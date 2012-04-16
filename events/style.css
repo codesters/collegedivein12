@@ -1,0 +1,415 @@
+/*
+ * Corrects block display not defined in IE6/7/8/9 & FF3
+ */
+
+*
+{
+margin:0 5px 0 5px;
+padding:0;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section 
+{
+    display: block;
+}
+
+/*
+ * Corrects inline-block display not defined in IE6/7/8/9 & FF3
+ */
+
+audio,canvas,video 
+{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+/*
+ * Prevents modern browsers from displaying 'audio' without controls
+ */
+
+audio:not([controls]) 
+{
+    display: none;
+}
+
+/*
+ * Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4
+ * Known issue: no IE6 support
+ */
+
+[hidden] 
+{
+    display: none;
+}
+
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
+ *    http://clagnut.com/blog/348/#c790
+ * 2. Keeps page centred in all browsers regardless of content height
+ * 3. Prevents iOS text size adjust after orientation change, without disabling user zoom
+ *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
+ */
+
+html 
+{
+    font-size: 100%; /* 1 */
+    overflow-y: scroll; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 3 */
+    -ms-text-size-adjust: 100%; /* 3 */
+}
+
+/*
+ * Addresses margins handled incorrectly in IE6/7
+ */
+
+body 
+{
+	margin: 0;
+	font-family:Segoe UI Light;
+	background-color:black;
+	color:#ffffff;
+}
+
+/* 
+ * Addresses font-family inconsistency between 'textarea' and other form elements.
+ */
+
+button,input,select,textarea
+{
+    font-family:MS Sans Serif;
+}
+
+h1,h2,h3
+{
+	color:#ffffff;
+	font-weight:normal;
+}
+
+a,a:visited
+{
+	color:#ffffff;
+	text-decoration:none;
+}
+a:hover
+{
+	color:orange;
+	
+}
+a
+{
+	margin:0;
+	padding:0;
+}
+/*-----------------------------------------------------------------------------------*/
+
+
+
+.wrapper
+{
+	width:1024px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#title
+{
+	float:left;
+	margin:30px 25px 25px 0px;
+}
+#title h2
+{
+	letter-spacing:2px;
+	text-align:center;
+}
+
+header p
+{
+	float:right;
+	margin-top:100px;
+}
+#navigation
+{
+	float:right;	
+}
+
+#navigation ul 
+{
+	list-style:none;
+	margin:0;
+	display:inline;
+	text-align:left;
+	
+}
+
+#navigation ul li 
+{
+	background-color:#131414;
+	
+	display:inline-block;
+	margin-right:-4px;
+	margin-left:-4px;
+	padding:10px 40px;
+	color:#ffffff;
+	font-size:110%;
+	border:solid black 2px;
+	border-radius:5px;
+}
+
+#navigation ul li:hover
+{
+	background-color:#ffffff;
+	color:#131414;
+	opacity:0.95;
+}
+
+#main-container
+{
+	margin-top:7px;
+}
+
+#club-tiles
+{
+	width:70%;
+	height:100%;
+	float:left;
+	
+}
+
+/*@-webkit-keyframes boxPulseSmall {
+from {
+-webkit-transform:rotate(0.8deg);
+-webkit-animation-timing-function: ease-out;
+}
+50% {
+-webkit-transform:rotate(0deg);
+}
+to {
+-webkit-transform:rotate(0.8deg);
+-webkit-animation-timing-function: ease-out;
+}
+}*/
+
+.tile-small
+{
+	width:190px;
+	height:130px;
+	float:left;
+	margin:4px;
+}
+
+.tile-medium
+{
+	width:290px;
+	height:130px;
+	float:left;
+	margin:4px;
+}
+
+.tile-big
+{
+	width:339px;
+	height:130px;
+	float:left;
+	margin:4px;
+}
+
+.tile-biggest
+{
+	width:685px;
+	height:130px;
+	float:left;
+	margin:4px;
+	
+}
+
+.green-tile
+{
+	background-color:#055902;
+	background:-webkit-gradient(linear,left top,left bottom,from(#055902) ,to(#29a82b));
+	background:-moz-linear-gradient(top,#055902,#29a82b));
+	box-shadow:0.5px 0.5px 5px rgba(5,89,2,0.99);
+}
+.green-tile:hover
+{
+	-webkit-box-shadow: 0px 0px #015a01, 1px 1px #015a01, 2px 2px #015a01, 3px 3px #015a01, 4px 4px #015a01, 5px 5px #015a01, 6px 6px #015a01, 7px 7px #015a01;
+	-moz-box-shadow: 0px 0px #015a01, 1px 1px #015a01, 2px 2px #015a01, 3px 3px #015a01, 4px 4px #015a01, 5px 5px #015a01, 6px 6px #015a01, 7px 7px #015a01;
+	font-size:120%;
+}
+.mustard-tile
+{
+	background-color:#978305;
+	background:-webkit-gradient(linear,left top,left bottom,from(#978305) ,to(#dda809));
+	background:-moz-linear-gradient(top,#978305,#dda809));
+	box-shadow:0.5px 0.5px 5px rgba(90,59,0,0.99);
+}
+.mustard-tile:hover
+{
+	-webkit-box-shadow: 0px 0px #835600, 1px 1px #835600, 2px 2px #835600, 3px 3px #835600, 4px 4px #835600, 5px 5px #835600, 6px 6px #835600, 7px 7px #835600;
+	-moz-box-shadow: 0px 0px #835600, 1px 1px #835600, 2px 2px #835600, 3px 3px #835600, 4px 4px #835600, 5px 5px #835600, 6px 6px #835600, 7px 7px #835600;
+	font-size:120%;
+}
+.grey-tile
+{
+	background-color:#55524b;
+	background:-webkit-gradient(linear,left top,left bottom,from(#55524b) ,to(#767369));
+	background:-moz-linear-gradient(top,#55524b,#767369));
+	box-shadow:0.5px 0.5px 5px rgba(35,32,27,0.99);
+}
+.grey-tile:hover
+{
+	-webkit-box-shadow: 0px 0px #27251f, 1px 1px #27251f, 2px 2px #27251f, 3px 3px #27251f, 4px 4px #27251f, 5px 5px #27251f, 6px 6px #27251f, 7px 7px #27251f;
+	-moz-box-shadow: 0px 0px #27251f, 1px 1px #27251f, 2px 2px #27251f, 3px 3px #27251f, 4px 4px #27251f, 5px 5px #27251f, 6px 6px #27251f, 7px 7px #27251f;
+	font-size:120%;
+}
+.blue-tile
+{
+	background-color:#174ce7;
+	background:-webkit-gradient(linear,left top,left bottom,from(#174ce7) ,to(#2d5dee));
+	background:-moz-linear-gradient(top,#174ce7,#2d5dee));
+	box-shadow:0.5px 0.5px 5px rgba(10,42,207,0.99);
+}
+.blue-tile:hover
+{
+	-webkit-box-shadow: 0px 0px #041cd8, 1px 1px #041cd8, 2px 2px #041cd8, 3px 3px #041cd8, 4px 4px #041cd8, 5px 5px #041cd8, 6px 6px #041cd8, 7px 7px #041cd8;
+	-moz-box-shadow: 0px 0px #041cd8, 1px 1px #041cd8, 2px 2px #041cd8, 3px 3px #041cd8, 4px 4px #041cd8, 5px 5px #041cd8, 6px 6px #041cd8, 7px 7px #041cd8;
+	font-size:120%;
+}
+.orange-tile
+{
+	background-color:#ca2a01;
+	background:-webkit-gradient(linear,left top,left bottom,from(#ca2a01) ,to(#e63103));
+	background:-moz-linear-gradient(top,#ca2a01,#e63103));
+	box-shadow:0.5px 0.5px 5px rgba(182,8,0,0.99);
+}
+.orange-tile:hover
+{
+	-webkit-box-shadow: 0px 0px #b60800, 1px 1px #b60800, 2px 2px #b60800, 3px 3px #b60800, 4px 4px #b60800, 5px 5px #b60800, 6px 6px #b60800, 7px 7px #b60800;
+	-moz-box-shadow: 0px 0px #b60800, 1px 1px #b60800, 2px 2px #b60800, 3px 3px #b60800, 4px 4px #b60800, 5px 5px #b60800, 6px 6px #b60800, 7px 7px #b60800;
+	font-size:120%;
+}
+.red-tile
+{
+	background-color:#c1000b;
+	background:-webkit-gradient(linear,left top,left bottom,from(#c1000b) ,to(#ec0411));
+	background:-moz-linear-gradient(top,#c1000b,#ec0411));
+	box-shadow:0.5px 0.5px 5px rgba(178,0,1,0.99);
+}
+.red-tile:hover
+{
+	-webkit-box-shadow: 0px 0px #b30001, 1px 1px #b30001, 2px 2px #b30001, 3px 3px #b30001, 4px 4px #b30001, 5px 5px #b30001, 6px 6px #b30001, 7px 7px #b30001;
+	-moz-box-shadow: 0px 0px #b30001, 1px 1px #b30001, 2px 2px #b30001, 3px 3px #b30001, 4px 4px #b30001, 5px 5px #b30001, 6px 6px #b30001, 7px 7px #b30001;
+	font-size:120%;
+}
+.indigo-tile
+{
+	background-color:#370b62;
+	background:-webkit-gradient(linear,left top,left bottom,from(#370b62) ,to(#481877));
+	background:-moz-linear-gradient(top,#370b62,#481877));
+	box-shadow:0.5px 0.5px 5px rgba(16,1,46,0.99);
+}
+.indigo-tile:hover
+{
+	-webkit-box-shadow: 0px 0px #10012e, 1px 1px #10012e, 2px 2px #10012e, 3px 3px #10012e, 4px 4px #10012e, 5px 5px #10012e, 6px 6px #10012e, 7px 7px #10012e;
+	-moz-box-shadow: 0px 0px #10012e, 1px 1px #10012e, 2px 2px #10012e, 3px 3px #10012e, 4px 4px #10012e, 5px 5px #10012e, 6px 6px #10012e, 7px 7px #10012e;
+	font-size:120%;
+}
+.turquoise-tile
+{
+	background-color:#028f91;
+	background:-webkit-gradient(linear,left top,left bottom,from(#028f91) ,to(#03b1b3));
+	background:-moz-linear-gradient(top,#028f91,#03b1b3));
+	box-shadow:0.5px 0.5px 5px rgba(0,99,102,0.99);
+}
+.turquoise-tile:hover
+{
+	-webkit-box-shadow: 0px 0px #006366, 1px 1px #006366, 2px 2px #006366, 3px 3px #006366, 4px 4px #006366, 5px 5px #006366, 6px 6px #006366, 7px 7px #006366;
+	-moz-box-shadow: 0px 0px #006366, 1px 1px #006366, 2px 2px #006366, 3px 3px #006366, 4px 4px #006366, 5px 5px #006366, 6px 6px #006366, 7px 7px #006366;
+	font-size:120%;
+}
+.brown-tile
+{
+	background-color:#16120e;
+	background:-webkit-gradient(linear,left top,left bottom,from(#16120e) ,to(#2e261e));
+	background:-moz-linear-gradient(top,#16120e,#2e261e));
+	box-shadow:0.5px 0.5px 5px rgba(4,13,2,0.99);
+}
+.brown-tile:hover
+{
+	-webkit-box-shadow: 0px 0px #040302, 1px 1px #040302, 2px 2px #040302, 3px 3px #040302, 4px 4px #040302, 5px 5px #040302, 6px 6px #040302, 7px 7px #040302;
+	-moz-box-shadow: 0px 0px #040302, 1px 1px #040302, 2px 2px #040302, 3px 3px #040302, 4px 4px #040302, 5px 5px #040302, 6px 6px #040302, 7px 7px #040302;
+	font-size:120%;
+}
+
+
+#club-tiles h3
+{
+	margin-top:90px;
+}
+#club-tiles h1
+{
+	text-align:center;
+	margin-top:40px;
+}
+
+aside
+{
+	background-color:#131414;
+	width:25%;
+	height:380px;
+	float:right;
+	padding:10px;
+	margin-top:10px;
+}
+
+footer
+{
+	margin-top:28px;
+}
+
+footer ul
+{
+	list-style:none;
+	float:left;
+	text-align:left;
+	margin-top:12px;
+}
+footer ul li
+{
+	display:inline;
+	font-size:105%;
+	padding:10px 25px;
+	
+}
+footer p
+{
+	float:right;
+}
+
+article p#show {
+    background-color: rgb(35,35,35);
+    font-family: Lato;
+    font-weight: 400;
+    color: rgb(255,255,255);
+    padding: 15px 15px 15px 15px;
+    width: 340px;
+    position: relative;
+    top: -230px;
+    margin: auto;
+    z-index: -1;
+    overflow: hidden;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+    transition: 0.8s ease;
+    -webkit-box-shadow: 0px 0px 2px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px 0px 2px rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.8);
+}
+
+article p#show:target { top: 0px }
