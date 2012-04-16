@@ -70,7 +70,9 @@ html
 
 body 
 {
-	margin: 0;
+    margin: auto;
+	margin-top: 0;
+	width: 1080px;
 	font-family:Segoe UI Light;
 	background-color:black;
 	color:#ffffff;
