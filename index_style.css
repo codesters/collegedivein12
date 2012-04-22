@@ -168,103 +168,21 @@ header,#footer-content
 	margin-top:85px;
 	padding-left:158px;
 }
-	#main h1,#main h3,#main ul,#main p
+	#content h1,#content h3,#content ul,#content p
 	{
 		margin-top:20px;
 	}
-	#main ul
+	#content ul
 	{
 		padding-left:20px;
 	}
-	#tiles,#main
+	#content
 	{
 		max-width:70%;
 		height:100%;
 		float:left;
 	}
-	.base-tile
-	{
-		float:left;
-		width:211px;
-		height:265px;
-		margin:0px 20px 0px 0px;
-	}
-	.base-tile a:hover div
-	{
-		opacity:0.4;
-	}
-	.blue-tile
-	{
-		min-height:130px;
-		margin-bottom:5px;
-		background-color:#174ce7;
-		background:-webkit-gradient(linear,left top,left bottom,from(#174ce7) ,to(#2d5dee));
-		background:-moz-linear-gradient(top,#174ce7,#2d5dee));
-		opacity:0.3;
-	}
-	.green-tile
-	{
-		min-height:130px;
-		margin-bottom:5px;
-		background-color:#055902;
-		background:-webkit-gradient(linear,left top,left bottom,from(#055902) ,to(#29a82b));
-		background:-moz-linear-gradient(top,#055902,#29a82b));
-		opacity:0.3;
-	}
-	.red-tile
-	{
-		min-height:130px;
-		margin-bottom:5px;
-		background-color:#c1000b;
-		background:-webkit-gradient(linear,left top,left bottom,from(#c1000b) ,to(#ec0411));
-		background:-moz-linear-gradient(top,#c1000b,#ec0411));
-		opacity:0.3;
-	}
-	.orange-tile
-	{
-		min-height:130px;
-		margin-bottom:5px;
-		background-color:#ca2a01;
-		background:-webkit-gradient(linear,left top,left bottom,from(#ca2a01) ,to(#e63103));
-		background:-moz-linear-gradient(top,#ca2a01,#e63103));
-		opacity:0.3;
-	}
-	.grey-tile
-	{
-		min-height:130px;
-		margin-bottom:5px;
-		background-color:#55524b;
-		background:-webkit-gradient(linear,left top,left bottom,from(#55524b) ,to(#767369));
-		background:-moz-linear-gradient(top,#55524b,#767369));
-		opacity:0.3;
-	}
-	.mustard-tile
-	{
-		min-height:130px;
-		margin-bottom:5px;
-		background-color:#978305;
-		background:-webkit-gradient(linear,left top,left bottom,from(#978305) ,to(#dda809));
-		background:-moz-linear-gradient(top,#978305,#dda809));
-		opacity:0.3;
-	}
-	.turquoise-tile
-	{
-		min-height:130px;
-		margin-bottom:5px;
-		background-color:#028f91;
-		background:-webkit-gradient(linear,left top,left bottom,from(#028f91) ,to(#03b1b3));
-		background:-moz-linear-gradient(top,#028f91,#03b1b3));
-		opacity:0.3;
-	}
-	.indigo-tile
-	{
-		min-height:130px;
-		margin-bottom:5px;
-		background-color:#370b62;
-		background:-webkit-gradient(linear,left top,left bottom,from(#370b62) ,to(#481877));
-		background:-moz-linear-gradient(top,#370b62,#481877));
-		opacity:0.3;
-	}
+	
 	aside
 	{
 		width:25%;

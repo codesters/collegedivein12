@@ -10,71 +10,87 @@
 	<meta name="author" content="Codesters">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
-	<link rel="stylesheet" href="css/style.css">
-	
-	<script src="js/libs/modernizr-2.0.6.min.js"></script>
+	<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-
+	<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+	
 	<div class="wrapper">
 		
+		<header>
 		
-		<div id="navigation">
-		
-			<ul>
-				<li>
-					Clubs
-						<ul class="dropdown-left">
-							<li>Tech-Club</li>
-							<li>Amigreen</li>
-							<li>Litero-Cultural</li>
-							<li>Finance</li>
-							<li>Robotics</li>
-							<li>Harmony Subway</li>
-							<li>Club 7</li>
-							<li>Club 8</li>
-						</ul>
-				</li>
-				<li>
-					Events
-						<ul class="dropdown-left">
-							<li>Ignition 2012</li>
-							<li>Talent Hunt 2012</li>
-							<li>Youth & Positivism</li>
-							<li>Sangathan</li>
-						</ul>
-				</li>
-				<li>
-					Academics
-						<ul class="dropdown-left">
-							<li>ASET</li>
-							<li>ABS</li>
-							<li>Architechture</li>
-							<li>Fashion</li>
-							<li>Journalism / Mass Comm.</li>
-							<li>Law</li>
-							<li>Nursing</li>
-						</ul>
-				</li>
-			</ul>
-		
-		</div>
-		<div style="clear:both"></div>
+			<div id="title">
+			
+				<a href="#"><h1 style="font-size:45px">College<b style="color:#436eee">Dive</b>.In</h1></a>
+				<h3>Powered By : <a style="font-size:22px" href="codesters.org">Codesters</a></h3>
+			
+				<div id="navigation">
+
+				<form id="search">
+					<input style="height:20px;width:125px" type="text" value="Search Box here"/>
+					<input style="height:26px;width:30px" type="button" value="Go" />
+				</form>
+				<ul>
+					<a href="#"><li>Clubs</li></a>
+					<a href="#"><li>Events</li></a>
+					<a href="#"><li style="background-color:#f7f2f2">Academics</li></a>
+				</ul>
+
+				</div>
+					
+			</div>
+			
+			<div style="clear:both"></div>
+			
+		</header>
+	
 		
 		<div id="main-container">
 		
-			<div id="club-tiles">
+			<div id="content">
 			
-				<div class="tile-medium"><h3>Tech Club</h3></div>
-				<div class="tile-small"><h3>Amigreen</h3></div>
-				<div class="tile-small"><h3>Litero-Cultural</h3></div>
-				<div class="tile-small"><h3>Finance</h3></div>
-				<div class="tile-small"><h3>Robotics</h3></div>
-				<div class="tile-medium"><h3>Harmony Subway</h3></div>
-				<div class="tile-big"><h3>Club 7</h3></div>
-				<div class="tile-big"><h3>Club 8</h3></div>
+					
+				<a href="#">
+					<div class="side-tile blue-tile">
+					
+					<h3>CSE/IT</h3>
+				
+					</div>
+				</a>
+				
+				<ul>
+					<li>
+						<a href="#" target="frame">
+								<h4>Semester 1</h4>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="frame">
+								<h4>Semester 2</h4>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="frame">
+								<h4>Semester 3</h4>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="frame">
+								<h4>Semester 4</h4>
+						</a>
+					</li>
+				</ul>
+				
+				
 				
 			</div>
 			
@@ -83,16 +99,30 @@
 			</aside>
 		
 			<div style="clear:both"></div>
+		
 		</div>
 		
-		<div id="footer">
-		    <ul class="goes-inline goes-left"  >
-		        <li>About</li>
-		        <li>Disclaimer</li>
-		        <li>Team</li>
+		<footer>
+			
+			<ul>
+		        <li><a href="#">About</a></li>
+		        <li><a href="#">Disclaimer</a></li>
+		        <li><a href="#">Team</a></li>
 		    </ul>
-		    <p class="goes-right">powered by <a href="http://codesters.org">Codesters</a></p>
-		</div>
+		    <p>powered by:<b style="font-size:22px"><a href="http://codesters.org" target="blank">Codesters</a></b></p>
+			<ul id="social">
+				<li><a href="#"><img src="images/blogger.png" /></a></li>
+				<li><a href="#"><img src="images/facebook.png" /></a></li>
+				<li><a href="#"><img src="images/google.png" /></a></li>
+				<li><a href="#"><img src="images/rss.png" /></a></li>
+			</ul>
+		   
+			<div class="fb-like" data-href="http://www.facebook.com/CollegeDiveIn" data-send="true" data-layout="button_count" data-width="150" data-show-faces="true" data-font="segoe ui"></div>
+
+			<div style="clear:both"></div>
+		</footer>
+	
+
 	</div>
 </body>
 

@@ -168,7 +168,7 @@ header,footer
 	margin-top:85px;
 	padding-left:158px;
 }
-	#tiles
+	#content
 	{
 		max-width:70%;
 		height:100%;
@@ -181,13 +181,31 @@ header,footer
 		height:265px;
 		margin:0px 20px 0px 0px;
 	}
-	.base-tile a:hover div
+	.side-tile
+	{
+		float:left;
+		width:175px;
+		height:60px;
+		position:absolute;
+		left:0px;
+	}
+	.side-tile h3
+	{
+		color:#f7f2f2;
+		text-align:center;
+		margin-top:12px;
+		font-size:140%;
+	}
+	.inside-tile
+	{
+		min-height:130px;
+	}
+	.base-tile a:hover div,.side-tile:hover
 	{
 		opacity:0.4;
 	}
 	.blue-tile
 	{
-		min-height:130px;
 		margin-bottom:5px;
 		background-color:#174ce7;
 		background:-webkit-gradient(linear,left top,left bottom,from(#174ce7) ,to(#2d5dee));
@@ -196,7 +214,6 @@ header,footer
 	}
 	.green-tile
 	{
-		min-height:130px;
 		margin-bottom:5px;
 		background-color:#055902;
 		background:-webkit-gradient(linear,left top,left bottom,from(#055902) ,to(#29a82b));
@@ -205,7 +222,6 @@ header,footer
 	}
 	.red-tile
 	{
-		min-height:130px;
 		margin-bottom:5px;
 		background-color:#c1000b;
 		background:-webkit-gradient(linear,left top,left bottom,from(#c1000b) ,to(#ec0411));
@@ -214,7 +230,6 @@ header,footer
 	}
 	.orange-tile
 	{
-		min-height:130px;
 		margin-bottom:5px;
 		background-color:#ca2a01;
 		background:-webkit-gradient(linear,left top,left bottom,from(#ca2a01) ,to(#e63103));
@@ -223,7 +238,6 @@ header,footer
 	}
 	.grey-tile
 	{
-		min-height:130px;
 		margin-bottom:5px;
 		background-color:#55524b;
 		background:-webkit-gradient(linear,left top,left bottom,from(#55524b) ,to(#767369));
@@ -232,7 +246,6 @@ header,footer
 	}
 	.mustard-tile
 	{
-		min-height:130px;
 		margin-bottom:5px;
 		background-color:#978305;
 		background:-webkit-gradient(linear,left top,left bottom,from(#978305) ,to(#dda809));
@@ -241,7 +254,6 @@ header,footer
 	}
 	.turquoise-tile
 	{
-		min-height:130px;
 		margin-bottom:5px;
 		background-color:#028f91;
 		background:-webkit-gradient(linear,left top,left bottom,from(#028f91) ,to(#03b1b3));
@@ -250,7 +262,6 @@ header,footer
 	}
 	.indigo-tile
 	{
-		min-height:130px;
 		margin-bottom:5px;
 		background-color:#370b62;
 		background:-webkit-gradient(linear,left top,left bottom,from(#370b62) ,to(#481877));
@@ -267,17 +278,18 @@ header,footer
 
 	
 	
-	footer ul
+	footer ul,#content ul
 	{
 		list-style:none;
 		margin-top:0px;
 		display:inline;
 		text-align:left;
 	}
-	footer ul li
+	footer ul li,#content ul li
 	{	
 		display:inline-block;
 		padding:10px 22px;
+		margin-top:5px;
 	}
 	footer ul#social,footer p
 	{
@@ -287,6 +299,7 @@ header,footer
 	footer p
         {
 		padding-top:5px;
+		margin-top:5px;
     }
     .fb-like
         {
