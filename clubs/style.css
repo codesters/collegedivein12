@@ -279,8 +279,13 @@ header,footer
 		display:inline-block;
 		padding:10px 22px;
 	}
-	footer p
+	footer ul#social,footer p
 	{
 		float:right;
 		margin-right:10px;
+	}
+	footer ul#social li img
+	{
+		width:24px;
+		height:24px;
 	}
