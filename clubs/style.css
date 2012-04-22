@@ -284,6 +284,14 @@ header,footer
 		float:right;
 		margin-right:10px;
 	}
+	footer p
+        {
+		padding-top:5px;
+    }
+    .fb-like
+        {
+		padding-top:15px;
+    }
 	footer ul#social li img
 	{
 		width:24px;

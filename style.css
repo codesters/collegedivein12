@@ -110,7 +110,7 @@ a
 
 
 
-header,footer
+header,#footer-content
 {
 	background:url('images/header_background.jpg');
 	min-width:1024px;
@@ -168,7 +168,15 @@ header,footer
 	margin-top:85px;
 	padding-left:158px;
 }
-	#tiles
+	#main h1,#main h3,#main ul,#main p
+	{
+		margin-top:20px;
+	}
+	#main ul
+	{
+		padding-left:20px;
+	}
+	#tiles,#main
 	{
 		max-width:70%;
 		height:100%;
@@ -265,8 +273,11 @@ header,footer
 		margin:-3px 50px 0px 0px;
 	}
 
-	
-	
+
+footer
+{
+		padding-top:11%;
+}
 	footer ul
 	{
 		list-style:none;
@@ -279,8 +290,21 @@ header,footer
 		display:inline-block;
 		padding:10px 22px;
 	}
-	footer p
+	footer ul#social,footer p,.fb-like
 	{
 		float:right;
 		margin-right:10px;
+	}
+	 footer p
+        {
+		padding-top:5px;
+    }
+    .fb-like
+        {
+		padding-top:15px;
+    }
+	footer ul#social li img
+	{
+		width:24px;
+		height:24px;
 	}
