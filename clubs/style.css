@@ -99,7 +99,6 @@ a,a:visited
 a:hover
 {
 	color:#000000;
-	
 }
 a
 {
@@ -170,9 +169,19 @@ header,footer
 }
 	#content
 	{
-		max-width:70%;
+		width:70%;
 		height:100%;
 		float:left;
+	}
+	#content h3,#content p
+	{
+		margin:12px;
+		margin-left:5%;
+	}
+	#content hr
+	{
+		margin-left:5%;
+		width:85%;
 	}
 	.base-tile
 	{
@@ -188,11 +197,12 @@ header,footer
 		height:60px;
 		position:absolute;
 		left:0px;
+		margin-top:10px;
 	}
 	.side-tile h3
 	{
-		color:#f7f2f2;
 		text-align:center;
+		color:#f7f2f2;
 		margin-top:12px;
 		font-size:140%;
 	}
@@ -278,14 +288,14 @@ header,footer
 
 	
 	
-	footer ul,#content ul
+	footer ul
 	{
 		list-style:none;
 		margin-top:0px;
 		display:inline;
 		text-align:left;
 	}
-	footer ul li,#content ul li
+	footer ul li
 	{	
 		display:inline-block;
 		padding:10px 22px;
