@@ -137,11 +137,6 @@ header,#footer-content
 		float:right;
 		margin-top:-6px;
 	}
-	#search
-	{
-		display:block;
-		margin:-35px 0px 13px 28px;
-	}
 	#navigation ul
 	{
 		list-style:none;
@@ -191,11 +186,11 @@ header,#footer-content
 		margin:-3px 50px 0px 0px;
 	}
 
-
 footer
 {
-		padding-top:11%;
+	margin-top:15px;
 }
+
 	footer ul
 	{
 		list-style:none;

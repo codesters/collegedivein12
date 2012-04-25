@@ -136,11 +136,6 @@ header,footer
 		float:right;
 		margin-top:-6px;
 	}
-	#search
-	{
-		display:block;
-		margin:-35px 0px 13px 28px;
-	}
 	#navigation ul
 	{
 		list-style:none;
@@ -173,15 +168,19 @@ header,footer
 		height:100%;
 		float:left;
 	}
-	#content h3,#content p
+	#left-column
 	{
-		margin:12px;
+		float:left;
 		margin-left:5%;
 	}
-	#content hr
+	#right-column
 	{
-		margin-left:5%;
-		width:85%;
+		float:right;
+		margin-right:5%;
+	}
+	#content h3
+	{
+		margin:10px 10px 10px 0px;
 	}
 	.base-tile
 	{
@@ -286,7 +285,10 @@ header,footer
 		margin:-3px 50px 0px 0px;
 	}
 
-	
+footer
+{
+	margin-top:15px;
+}
 	
 	footer ul
 	{
