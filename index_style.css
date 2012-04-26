@@ -72,7 +72,7 @@ body
 {
 	margin: 0;
 	font-family:Segoe UI Light;
-	background-color:#f7f2f2;
+	background-color:#f2f7f7;
 	color:#444444;
 }
 
@@ -159,9 +159,10 @@ header,#footer-content
 	
 #main-container
 {
-	min-width:1024px;
+	width:1024px;
 	margin-top:85px;
-	padding-left:158px;
+	margin-left:auto;
+	margin-right:auto;
 }
 	#content h1,#content h3,#content ul,#content p
 	{
@@ -183,7 +184,7 @@ header,#footer-content
 		width:25%;
 		float:right;
 		text-align:justify;
-		margin:-3px 50px 0px 0px;
+		margin:-3px 0px 0px 50px;
 	}
 
 footer

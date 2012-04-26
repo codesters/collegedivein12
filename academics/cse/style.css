@@ -158,9 +158,10 @@ header,footer
 	
 #main-container
 {
-	min-width:1024px;
+	width:1024px;
 	margin-top:85px;
-	padding-left:158px;
+	margin-left:auto;
+	margin-right:auto;
 }
 	#content
 	{
@@ -207,11 +208,11 @@ header,footer
 	}
 	.inside-tile
 	{
-		min-height:130px;
+		min-height:155px;
 	}
 	.base-tile a:hover div,.side-tile:hover
 	{
-		opacity:0.4;
+		opacity:1;
 	}
 	.blue-tile
 	{
@@ -219,7 +220,7 @@ header,footer
 		background-color:#174ce7;
 		background:-webkit-gradient(linear,left top,left bottom,from(#174ce7) ,to(#2d5dee));
 		background:-moz-linear-gradient(top,#174ce7,#2d5dee));
-		opacity:0.3;
+		opacity:0.7;
 	}
 	.green-tile
 	{
@@ -227,7 +228,7 @@ header,footer
 		background-color:#055902;
 		background:-webkit-gradient(linear,left top,left bottom,from(#055902) ,to(#29a82b));
 		background:-moz-linear-gradient(top,#055902,#29a82b));
-		opacity:0.3;
+		opacity:0.7;
 	}
 	.red-tile
 	{
@@ -235,7 +236,7 @@ header,footer
 		background-color:#c1000b;
 		background:-webkit-gradient(linear,left top,left bottom,from(#c1000b) ,to(#ec0411));
 		background:-moz-linear-gradient(top,#c1000b,#ec0411));
-		opacity:0.3;
+		opacity:0.7;
 	}
 	.orange-tile
 	{
@@ -243,7 +244,7 @@ header,footer
 		background-color:#ca2a01;
 		background:-webkit-gradient(linear,left top,left bottom,from(#ca2a01) ,to(#e63103));
 		background:-moz-linear-gradient(top,#ca2a01,#e63103));
-		opacity:0.3;
+		opacity:0.7;
 	}
 	.grey-tile
 	{
@@ -251,7 +252,7 @@ header,footer
 		background-color:#55524b;
 		background:-webkit-gradient(linear,left top,left bottom,from(#55524b) ,to(#767369));
 		background:-moz-linear-gradient(top,#55524b,#767369));
-		opacity:0.3;
+		opacity:0.7;
 	}
 	.mustard-tile
 	{
@@ -259,7 +260,7 @@ header,footer
 		background-color:#978305;
 		background:-webkit-gradient(linear,left top,left bottom,from(#978305) ,to(#dda809));
 		background:-moz-linear-gradient(top,#978305,#dda809));
-		opacity:0.3;
+		opacity:0.7;
 	}
 	.turquoise-tile
 	{
@@ -267,7 +268,7 @@ header,footer
 		background-color:#028f91;
 		background:-webkit-gradient(linear,left top,left bottom,from(#028f91) ,to(#03b1b3));
 		background:-moz-linear-gradient(top,#028f91,#03b1b3));
-		opacity:0.3;
+		opacity:0.7;
 	}
 	.indigo-tile
 	{
@@ -275,14 +276,14 @@ header,footer
 		background-color:#370b62;
 		background:-webkit-gradient(linear,left top,left bottom,from(#370b62) ,to(#481877));
 		background:-moz-linear-gradient(top,#370b62,#481877));
-		opacity:0.3;
+		opacity:0.7;
 	}
 	aside
 	{
 		width:25%;
 		float:right;
 		text-align:justify;
-		margin:-3px 50px 0px 0px;
+		margin:-3px 0px 0px 50px;
 	}
 
 footer
