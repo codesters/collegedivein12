@@ -16,7 +16,14 @@
 
 <body>
 
-
+<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<div class="wrapper">
 		
 		<div id="navigation">
@@ -56,10 +63,12 @@
 				<p style="font-size:20px" >This page is not available.</p>
 				<p style="font-size:20px">We will be updating this soon. In the meantime you may explore other sections of CDI.</p>
 				<h3>Like our <a href="facebook.com/collegedivein">Facebook Page</a> to stay updated.</h3>
-				<p style="font-size:20px">Go back to <a href="collegedive.in">College<span style="color:#436eee">Dive</span>.<span style="color:light grey">In</span></p>
-            
+				
 				
 			</div>
+			<aside>
+				<div class="fb-like-box" data-href="http://www.facebook.com/collegedivein" data-width="300" data-show-faces="true" data-border-color="#ebeeee" data-stream="true" data-header="false"></div>
+			</aside>
 			<div style="clear:both"></div>
 						
 		</div>
