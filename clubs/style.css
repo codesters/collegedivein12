@@ -186,7 +186,7 @@ header img#man
 }
 #content
 {
-	width:55%;
+	width:72%;
 	height:100%;
 	float:left;
 	margin-left:auto;
@@ -200,7 +200,7 @@ header img#man
 		float:left;
 		width:211px;
 		height:265px;
-		margin:60px 200px 0px 0px;
+		margin:60px 90px 0px 0px;
 	}
 	.base-tile p,.base-tile h3
 	{
@@ -217,7 +217,12 @@ header img#man
 		height:60px;
 		position:absolute;
 		left:0px;
-		margin-top:10px;
+		margin-top:20px;
+		opacity:0.6;
+	}
+	.side-tile:hover
+	{
+		opacity:0.9;
 	}
 	.side-tile h3
 	{
@@ -298,10 +303,6 @@ header img#man
 aside
 {
 	float:right;
-}
-aside img
-{
-	margin-top:-10px;
 }
 footer
 {
