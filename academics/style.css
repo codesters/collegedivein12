@@ -200,7 +200,7 @@ header img#man
 		float:left;
 		width:211px;
 		height:265px;
-		margin:50px 20px 0px 0px;
+		margin:60px 200px 0px 0px;
 	}
 	.base-tile p,.base-tile h3
 	{
@@ -208,7 +208,7 @@ header img#man
 	}
 	#content a div.inside-tile:hover
 	{
-		opacity:0.9;
+		opacity:0.8;
 	}
 	.side-tile
 	{
