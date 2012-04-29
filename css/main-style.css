@@ -1,0 +1,429 @@
+/*
+ /* Corrects block display not defined in IE6/7/8/9 & FF3
+ */
+
+*
+{
+margin:0;
+padding:0;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section 
+{
+    display: block;
+}
+
+/*
+ * Corrects inline-block display not defined in IE6/7/8/9 & FF3
+ */
+
+audio,canvas,video 
+{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+/*
+ * Prevents modern browsers from displaying 'audio' without controls
+ */
+
+audio:not([controls]) 
+{
+    display: none;
+}
+
+/*
+ * Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4
+ * Known issue: no IE6 support
+ */
+
+[hidden] 
+{
+    display: none;
+}
+
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
+ *    http://clagnut.com/blog/348/#c790
+ * 2. Keeps page centred in all browsers regardless of content height
+ * 3. Prevents iOS text size adjust after orientation change, without disabling user zoom
+ *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
+ */
+
+html 
+{
+    font-size: 100%; /* 1 */
+    overflow-y: scroll; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 3 */
+    -ms-text-size-adjust: 100%; /* 3 */
+}
+
+/*
+ * Addresses margins handled incorrectly in IE6/7
+ */
+
+ @font-face
+{
+        font-family:Segoe UI Light;
+        src:url('segoeuil.ttf');
+}
+body 
+{
+	margin: 0;
+	font-family:Segoe UI Light;
+	background-color:#ebeeee;
+	color:#444444;
+}
+
+/* 
+ * Addresses font-family inconsistency between 'textarea' and other form elements.
+ */
+
+button,input,select,textarea
+{
+    font-family:MS Sans Serif;
+}
+
+h1,h2,h3,h4
+{
+	color:#444444;
+	font-weight:normal;
+}
+
+a,a:visited
+{
+	color:#164f75;
+	text-decoration:none;
+}
+a:hover
+{
+	color:orange;
+}
+a
+{
+	margin:0;
+	padding:0;
+}
+/*-----------------------------------------------------------------------------------*/
+
+#navigation
+{
+	background-color:#dbdede;
+	padding:10px 0px 10px;
+	min-width:1369px;
+	position:fixed;
+}
+#navigation ul
+{
+	list-style:none;
+	display:inline;
+}
+#navigation ul li
+{
+	display:inline;
+	padding:10px 70px;
+	border-left-style:solid;
+	border-color:#cbcece;
+	border-width:1px;
+}
+#navigation ul img
+{
+	margin:-7px 5px -7px -7px;
+}
+#navigation li:hover
+{
+	background-color:#ebeeee;
+}
+header,#main-container
+{
+	min-width:1100px;
+	padding:40px;
+}
+
+header h1
+{
+	margin-top:40px;
+}
+header img#text
+{
+	padding-top:55px;
+	margin-left:70px;
+}
+header img#man
+{
+	float:left;
+	padding-top:30px;
+}
+#title
+{
+	max-width:290px;
+	padding-left:30px;
+	float:left;
+}
+#title h2
+{
+	padding-left:30px;
+}
+#main-container
+{
+	padding-top:20px;
+	padding-bottom:30px;
+}
+
+#content h1,#content h3,#content ul,#content p
+{
+	margin-top:10px;
+}
+#content ul
+{
+	padding-left:20px;
+	list-style-image:url('images/arrow.png');
+}
+#content ul li
+{
+	padding-top:5px;
+}
+
+
+#content
+{
+	width:56%;
+	height:100%;
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+}
+#content h2, #content h3 
+{
+   font-size:130%;
+}
+
+#content p, #content ul li 
+{
+    font-size:110%;
+}
+
+.base-tile
+
+	{
+
+		float:left;
+
+		width:160px;
+
+		height:220px;
+
+		margin:60px 50px 0px 0px;
+
+	}
+
+	.base-tile p,.base-tile h3
+
+	{
+
+		text-align:center;
+
+	}
+
+	#content a div.inside-tile:hover
+
+	{
+
+		opacity:0.8;
+
+	}
+
+	.inside-tile
+
+	{
+
+		height:150px;
+
+	}
+
+	.blue-tile
+
+	{
+
+		margin-bottom:5px;
+
+		background-color:#174ce7;
+
+		background:-webkit-gradient(linear,left top,left bottom,from(#174ce7) ,to(#2d5dee));
+
+		background:-moz-linear-gradient(top,#174ce7,#2d5dee));
+
+		
+
+	}
+
+	.green-tile
+
+	{
+
+		margin-bottom:5px;
+
+		background-color:#055902;
+
+		background:-webkit-gradient(linear,left top,left bottom,from(#055902) ,to(#29a82b));
+
+		background:-moz-linear-gradient(top,#055902,#29a82b));
+
+		
+
+	}
+
+	.red-tile
+
+	{
+
+		margin-bottom:5px;
+
+		background-color:#c1000b;
+
+		background:-webkit-gradient(linear,left top,left bottom,from(#c1000b) ,to(#ec0411));
+
+		background:-moz-linear-gradient(top,#c1000b,#ec0411));
+
+		
+
+	}
+
+	.orange-tile
+
+	{
+
+		margin-bottom:5px;
+
+		background-color:#ca2a01;
+
+		background:-webkit-gradient(linear,left top,left bottom,from(#ca2a01) ,to(#e63103));
+
+		background:-moz-linear-gradient(top,#ca2a01,#e63103));
+
+		
+
+	}
+
+	.grey-tile
+
+	{
+
+		margin-bottom:5px;
+
+		background-color:#55524b;
+
+		background:-webkit-gradient(linear,left top,left bottom,from(#55524b) ,to(#767369));
+
+		background:-moz-linear-gradient(top,#55524b,#767369));
+
+		
+
+	}
+
+	.mustard-tile
+
+	{
+
+		margin-bottom:5px;
+
+		background-color:#978305;
+
+		background:-webkit-gradient(linear,left top,left bottom,from(#978305) ,to(#dda809));
+
+		background:-moz-linear-gradient(top,#978305,#dda809));
+
+		
+
+	}
+
+	.turquoise-tile
+
+	{
+
+		margin-bottom:5px;
+
+		background-color:#028f91;
+
+		background:-webkit-gradient(linear,left top,left bottom,from(#028f91) ,to(#03b1b3));
+
+		background:-moz-linear-gradient(top,#028f91,#03b1b3));
+
+		
+
+	}
+
+	.indigo-tile
+
+	{
+
+		margin-bottom:5px;
+
+		background-color:#370b62;
+
+		background:-webkit-gradient(linear,left top,left bottom,from(#370b62) ,to(#481877));
+
+		background:-moz-linear-gradient(top,#370b62,#481877));
+
+		
+
+	}
+
+aside
+{
+	float:right;
+}
+aside img
+{
+	margin-top:-10px;
+}
+footer
+{
+	background-color:#ebeeee;
+}
+#footer-content
+{
+	min-width:1024px;
+	background-color:#dbdede;
+}
+footer ul
+{
+	list-style:none;
+	margin-top:0px;
+	display:inline;
+	text-align:left;
+}
+footer ul li
+{	
+	display:inline-block;
+	padding:10px 22px;
+}
+footer ul#social,footer p,.fb-like
+{
+	float:right;
+	margin-right:10px;
+}
+footer p
+{
+	padding-top:5px;
+}
+.fb-like
+{
+	padding-top:15px;
+}
+.fb-like-box
+{
+	margin-top:25px;
+}
+footer ul#social li img
+{	
+	width:24px;
+	height:24px;
+}
