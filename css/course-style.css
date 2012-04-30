@@ -308,7 +308,7 @@ header img#man
 aside
 {
 	float:right;
-}aside ul{	list-style:none;	padding:10px;}aside li{	margin-top:25px;	padding-left:20px;}aside h2{	float:right;	padding-top:10px;	margin-left:5px;}
+}aside ul{	list-style:none;	padding:10px;}aside li{	margin-top:25px;	padding-left:20px;}aside h2{	padding-top:10px;}
 footer
 {
 	background-color:#ebeeee;	margin-top:20px;
