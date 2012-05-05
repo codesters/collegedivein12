@@ -174,8 +174,8 @@ header img#man
 {
 	padding-top:20px;
 	padding-bottom:30px;
-}
-
+}#note-text,#note-text-bottom{	padding:8px 10px 10px 10px;	background-color:#dfe9ee;	border-style:solid;	border-width:1px;	border-color:#d9e0e3;	text-align:center;	width:58.5%;	margin-left:10.5%;	}
+#note-text-bottom{	margin-top:100px;}
 #content h1,#content h3,#content ul,#content p
 {
 	margin-top:20px;
@@ -307,7 +307,7 @@ header img#man
 	
 aside
 {
-	float:right;
+	float:right;
 }aside ul{	list-style:none;	padding:10px;}aside li{	margin-top:25px;	padding-left:20px;}aside h2{	padding-top:10px;}
 footer
 {
