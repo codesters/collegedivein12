@@ -307,7 +307,7 @@ aside
 	width:30%;
 	display:inline;
 }
-
+#note-text{	padding:10px;	padding-top:8px;	background-color:#dfe9ee;	border-style:solid;	border-width:1px;	border-color:#d9e0e3;	text-align:center;}
 footer
 {
 	background-color:#ebeeee;
