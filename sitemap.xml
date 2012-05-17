@@ -8,72 +8,86 @@
 
 <url>
   <loc>http://collegedive.in/</loc>
-  <lastmod>2012-04-29T01:43:08+00:00</lastmod>
+  <lastmod>2012-05-07T23:43:16+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>http://collegedive.in/clubs/</loc>
-  <lastmod>2012-04-29T01:30:17+00:00</lastmod>
+  <lastmod>2012-05-01T16:20:37+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://collegedive.in/events/</loc>
-  <lastmod>2012-04-29T01:41:01+00:00</lastmod>
+  <lastmod>2012-05-01T16:20:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://collegedive.in/academics/</loc>
-  <lastmod>2012-04-29T01:13:44+00:00</lastmod>
+  <lastmod>2012-05-09T14:46:45+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://collegedive.in/about/</loc>
-  <lastmod>2012-04-29T01:13:41+00:00</lastmod>
+  <lastmod>2012-05-01T16:20:33+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://collegedive.in/team/</loc>
-  <lastmod>2012-04-29T11:27:10+00:00</lastmod>
+  <lastmod>2012-05-01T16:20:54+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://collegedive.in/disclaimer/</loc>
-  <lastmod>2012-04-29T01:14:19+00:00</lastmod>
+  <lastmod>2012-05-01T16:20:45+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://collegedive.in/coming/</loc>
-  <lastmod>2012-04-29T01:14:07+00:00</lastmod>
+  <lastmod>2012-05-01T16:20:38+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://collegedive.in/academics/first/</loc>
-  <lastmod>2012-04-29T01:14:59+00:00</lastmod>
+  <lastmod>2012-05-05T14:25:08+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://collegedive.in/academics/cse/</loc>
-  <lastmod>2012-04-29T01:13:53+00:00</lastmod>
+  <lastmod>2012-05-05T14:23:44+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://collegedive.in/academics/mae/</loc>
-  <lastmod>2012-04-29T01:14:01+00:00</lastmod>
+  <lastmod>2012-05-05T14:26:08+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://collegedive.in/academics/ece/</loc>
-  <lastmod>2012-04-29T01:13:56+00:00</lastmod>
+  <lastmod>2012-05-05T14:24:23+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://collegedive.in/academics/civil/</loc>
-  <lastmod>2012-04-29T01:13:50+00:00</lastmod>
+  <lastmod>2012-05-01T16:19:34+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://collegedive.in/academics/biotech/</loc>
-  <lastmod>2012-04-29T10:49:07+00:00</lastmod>
+  <lastmod>2012-05-01T16:19:31+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 </urlset>
