@@ -175,15 +175,14 @@ header img#man
 	padding-top:20px;
 	padding-bottom:30px;
 }
-
+#note-text{	padding:8px 10px 10px 10px;	background-color:#dfe9ee;	border-style:solid;	border-width:1px;	border-color:#d9e0e3;	text-align:center;	width:58.5%;	margin-left:10.5%;	margin-bottom:40px;	}
 #content h1,#content h3,#content ul,#content p
 {
 	margin-top:10px;
 }
 #content ul
 {
-	padding-left:20px;
-	list-style-image:url('images/arrow.png');
+	padding-left:20px;
 }
 #content ul li
 {
@@ -380,10 +379,7 @@ aside
 {
 	float:right;
 }
-aside img
-{
-	margin-top:-10px;
-}
+
 footer
 {
 	background-color:#ebeeee;
